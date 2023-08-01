@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(236, 175, 106);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+}
+div{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(219, 112, 80);
+}
+.tengah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin-right: 10px;
+    margin-left: 10px;
+}

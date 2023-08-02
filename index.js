@@ -58,3 +58,12 @@ document.getElementById("submit3").onclick=function(){
         document.getElementById("ketepatan").innerHTML="Tebakan anda "+tebakan+" Terlalu Kecil"
     }
 }
+
+//CheckboxIG
+document.getElementById("submit4").onclick=function(){
+    if(checkbox.checked){
+        document.getElementById("p6").innerHTML= "Terima Kasih"
+    }else{
+        document.getElementById("p6").innerHTML="Okeeh :D"
+    }
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tes JS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -59,14 +59,57 @@
     <button type="button" id="submit3">Submit</button>
     <div>
     <p id="ketepatan">Keakuratan akan ditampilkan disini</p>
+    <p id="percobaan"></p>
     </div>
 </section>
 <section>
-    <p>Follow Akun Instagram Admin <br><a href="https://www.instagram.com/lcurents/" style="color: rgb(189, 0, 0);" target="_blank">Klik disini</a></p>
+    <p>Follow Akun Instagram Admin <br></p>
     <label for="checkbox">Sudah Follow?</label>
     <input type="checkbox" id="checkbox"><br>
     <button id="submit4">Submit</button>
     <p id="p6"></p>
+</section>
+<section>
+    <h1>Pertanyaan</h1>
+    <label>Apakah Kamu suka kucing?(Yes/No)</label>
+    <input type="text" id="kucing"><br>
+    <button id="submit5">Submit</button>
+    <div>
+        <p id="p7"></p>
+    </div>
+</section>
+<section>
+    <h1>Temperatur</h1>
+    <label for="temperatur">Masukkan temperatur</label>
+    <input type="number" id="temperatur"><br>
+    <input type="radio" name="skala" id="Celcius"><label for="Celcius">Celcius</label><br>
+    <input type="radio" name="skala" id="Fahrenheit"><label for="Fahrenheit">Fahrenheit</label><br>
+    <button id="submit6">Submit</button>
+    <div>
+        <p id="suhu"></p>
+    </div>
+</section>
+<section>
+    <h1>Tambahkan Buah</h1>
+    <p>Tambah dan hapus buah yang anda inginkan</p>
+    <button id="addbuah">Tambah Buah</button>
+    <button id="delbuah">Hapus Buah</button>
+    <button id="btntampil">Tampilkan Buah</button><br><br>
+    <div id="namabuah" style="display: none;">
+        <label for="buah">Masukkan nama buah</label>
+        <input type="text" id="buah"><br><br>
+        <div id="add" style="display: none;">
+            <button id="unshift">Tambah buah di awal</button><br><br>
+            <button id="push">Tambah buah di akhir</button>
+        </div>
+        <div id="del" style="display: none;">
+            <button id="shift">Hapus buah di awal</button><br><br>
+            <button id="pop">Hapus buah di akhir</button>
+        </div>
+    </div>
+    <div>
+        <p id="tampilbuah">Kosong</p>
+    </div>
 </section>
     <script src="index.js"></script>
 </main>
